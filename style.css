@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(36, 45, 45);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.s-para {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.move-icon {
+    height: 120px;
+    margin: 20px;
+    background-color: transparent;
+}
+
+.move-button {
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+.s-result {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.s-moves {
+    margin: 50px;
+}
+
+.s-score {
+    margin: 30px;
+}
+
+.reset-score {
+    background-color: aliceblue;
+    height: 50px;
+    width: 200px;
+    margin-left: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
