@@ -21,30 +21,30 @@ function playGame(playerMove) {
 
     let result = '';
 
-    if (playerMove === 'SCISSORS') {
-        if (computerMove === 'ROCK') {
+    if (playerMove === 'scissors') {
+        if (computerMove === 'rock') {
             result = 'You lose.';
-        } else if (computerMove === 'PAPER') {
+        } else if (computerMove === 'paper') {
             result = 'You win.';
-        } else if (computerMove === 'SCISSORS') {
+        } else if (computerMove === 'scissors') {
             result = 'Tie.';
         }
 
-    } else if (playerMove === 'PAPER') {
-        if (computerMove === 'ROCK') {
+    } else if (playerMove === 'paper') {
+        if (computerMove === 'rock') {
             result = 'You win.';
-        } else if (computerMove === 'PAPER') {
+        } else if (computerMove === 'paper') {
             result = 'Tie.';
-        } else if (computerMove === 'SCISSORS') {
+        } else if (computerMove === 'scissors') {
             result = 'You lose.';
         }
 
-    } else if (playerMove === 'ROCK') {
-        if (computerMove === 'ROCK') {
+    } else if (playerMove === 'rock') {
+        if (computerMove === 'rock') {
             result = 'Tie.';
-        } else if (computerMove === 'PAPER') {
+        } else if (computerMove === 'paper') {
             result = 'You lose.';
-        } else if (computerMove === 'SCISSORS') {
+        } else if (computerMove === 'scissors') {
             result = 'You win.';
         }
     }
@@ -64,7 +64,7 @@ function playGame(playerMove) {
     document.querySelector('.js-result').innerHTML=`${result}`;
 
     document.querySelector('.js-moves').innerHTML=`You
-    <img src="/image/${playerMove}.png" class="move-icon"><img src="/image/${computerMove}.png" class="move-icon">
+    <img src="image/${playerMove}.png" class="move-icon"><img src="image/${computerMove}.png" class="move-icon">
     Computer`;
   
 
